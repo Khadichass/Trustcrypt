@@ -3,6 +3,12 @@
   src: url(./fonts/Inter-Bold.ttf);
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   // background-color: slinear-gradient(
   //   0deg,
@@ -12,9 +18,6 @@ body {
   // filter: blur(30px);
   background-color: black;
   max-width: 1920px;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
 
 .header {

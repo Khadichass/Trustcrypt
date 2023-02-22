@@ -2,12 +2,15 @@
   font-family: "Inter";
   src: url(./fonts/Inter-Bold.ttf);
 }
-body {
-  background-color: black;
-  max-width: 1920px;
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  max-width: 1920px;
 }
 
 .header {
