@@ -3,6 +3,11 @@
   src: url(./fonts/Inter-Bold.ttf);
 }
 
+@font-face {
+  font-family: "Interreg";
+  src: url(./fonts/Inter-Regular.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -57,7 +62,7 @@ body {
     a {
       text-decoration: none;
       color: #ecf1f0;
-      font-family: "Inter", sans-serif;
+      font-family: "Interreg", sans-serif;
     }
 
     a:hover {
@@ -125,7 +130,7 @@ body {
       font: {
         weight: 400;
         size: 17px;
-        family: "Inter", sans-serif;
+        family: "Interreg", sans-serif;
       }
       line-height: 20.57px;
       width: 53%;
@@ -135,6 +140,7 @@ body {
   &__thirdpart {
     display: flex;
     gap: 16px;
+    margin-top: 32px;
     &--card {
       padding: 10px 10px;
       background: rgba(255, 255, 255, 0.03);
@@ -145,7 +151,7 @@ body {
         font: {
           weight: 400;
           size: 17px;
-          family: "Inter", sans-serif;
+          family: "Interreg", sans-serif;
         }
         line-height: 20.57px;
       }
@@ -203,7 +209,7 @@ body {
       font: {
         weight: 400;
         size: 17px;
-        family: "Inter", sans-serif;
+        family: "Interreg", sans-serif;
       }
       line-height: 20.57px;
       margin: 16px;
@@ -255,7 +261,7 @@ body {
     font: {
       weight: 400;
       size: 17px;
-      family: "Inter", sans-serif;
+      family: "Interreg", sans-serif;
     }
     line-height: 20.57px;
     margin: 16px;

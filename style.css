@@ -2,6 +2,10 @@
   font-family: "Inter";
   src: url(./fonts/Inter-Bold.ttf);
 }
+@font-face {
+  font-family: "Interreg";
+  src: url(./fonts/Inter-Regular.ttf);
+}
 * {
   margin: 0;
   padding: 0;
@@ -44,7 +48,7 @@ body {
 .header__links a {
   text-decoration: none;
   color: #ecf1f0;
-  font-family: "Inter", sans-serif;
+  font-family: "Interreg", sans-serif;
 }
 .header__links a:hover {
   color: #0fae96;
@@ -97,13 +101,14 @@ body {
   color: #ecf1f0;
   font-weight: 400;
   font-size: 17px;
-  font-family: "Inter", sans-serif;
+  font-family: "Interreg", sans-serif;
   line-height: 20.57px;
   width: 53%;
 }
 .section1__thirdpart {
   display: flex;
   gap: 16px;
+  margin-top: 32px;
 }
 .section1__thirdpart--card {
   padding: 10px 10px;
@@ -115,7 +120,7 @@ body {
   color: #ecf1f0;
   font-weight: 400;
   font-size: 17px;
-  font-family: "Inter", sans-serif;
+  font-family: "Interreg", sans-serif;
   line-height: 20.57px;
 }
 .section1__thirdpart--card:hover {
@@ -162,7 +167,7 @@ body {
   width: 370px;
   font-weight: 400;
   font-size: 17px;
-  font-family: "Inter", sans-serif;
+  font-family: "Interreg", sans-serif;
   line-height: 20.57px;
   margin: 16px;
 }
@@ -203,7 +208,7 @@ body {
   text-align: center;
   font-weight: 400;
   font-size: 17px;
-  font-family: "Inter", sans-serif;
+  font-family: "Interreg", sans-serif;
   line-height: 20.57px;
   margin: 16px;
 }
