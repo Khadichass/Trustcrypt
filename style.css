@@ -13,16 +13,25 @@
 }
 
 body {
-  background-color: black;
-  max-width: 1920px;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 1426px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(./photos/pawel-czerwinski-HuhzIzujHmY-unsplash.jpg);
+  filter: blur(30px);
 }
 
 .header {
   display: flex;
   align-items: center;
-  margin-left: 310px;
-  margin-right: 310px;
   width: 80%;
+  background: rgba(17, 1, 30, 0.1);
 }
 .header__logoside {
   display: flex;
@@ -38,11 +47,13 @@ body {
 .header__logoside h1 {
   font-family: "Inter", sans-serif;
   color: #ecf1f0;
+  font-size: 24px;
 }
 .header__links {
   display: flex;
   gap: 30px;
-  margin-top: 24px;
+  margin-top: 34px;
+  margin-bottom: 26px;
   margin-left: 397px;
 }
 .header__links a {
@@ -52,12 +63,13 @@ body {
 }
 .header__links a:hover {
   color: #0fae96;
+  text-decoration: underline;
 }
 .header__ru {
   display: flex;
   gap: 4px;
   align-items: center;
-  margin-top: 40px;
+  margin-top: 34px;
   margin-bottom: 22px;
   margin-left: 64px;
 }
@@ -78,10 +90,14 @@ body {
   margin-left: 64px;
 }
 
+.sect {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 32px;
+}
+
 .section1 {
   width: 80%;
-  margin-left: 310px;
-  margin-right: 310px;
 }
 .section1__firsth1 {
   margin-top: 64px;
@@ -128,7 +144,7 @@ body {
   border: 1px solid #ecf1f0;
   border-radius: 4px;
 }
-.section1__thirdpart--card:hover p:hover {
+.section1__thirdpart--card:hover p {
   color: #11011e;
 }
 
@@ -137,8 +153,6 @@ body {
   grid-template-columns: auto auto auto;
   gap: 32px;
   width: 80%;
-  margin-left: 310px;
-  margin-right: 310px;
   margin-top: 32px;
   margin-bottom: 64px;
 }
@@ -149,8 +163,6 @@ body {
 }
 .section2__card img {
   margin: 16px;
-  width: 380px;
-  height: 224px;
 }
 .section2__card h3 {
   color: #ecf1f0;
@@ -177,6 +189,7 @@ body {
   grid-template-columns: auto;
   gap: 17px;
   align-items: center;
+  margin-top: 340px;
   background: rgba(255, 255, 255, 0.03);
   border: 1px solid rgba(255, 255, 255, 0.05);
   border-radius: 8px;
@@ -203,6 +216,9 @@ body {
   border-radius: 8px;
 }
 
+.footer {
+  margin-bottom: 64px;
+}
 .footer p {
   color: #ecf1f0;
   text-align: center;
@@ -210,7 +226,6 @@ body {
   font-size: 17px;
   font-family: "Interreg", sans-serif;
   line-height: 20.57px;
-  margin: 16px;
 }
 
 /*# sourceMappingURL=style.css.map */
