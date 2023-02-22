@@ -164,6 +164,37 @@ body {
   margin: 16px;
 }
 
+.aside__container {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 17px;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  width: 57px;
+  height: 280px;
+  box-sizing: border-box;
+}
+.aside__container--numb {
+  width: 45px;
+  height: 45px;
+  margin: 6px;
+}
+.aside__container--numb p {
+  color: #ecf1f0;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  line-height: 33.3px;
+  align-items: center;
+  text-align: center;
+}
+.aside__container--numb:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+
 .footer p {
   color: #ecf1f0;
   text-align: center;
