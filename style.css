@@ -19,12 +19,13 @@ body {
 
 .background {
   position: absolute;
+  z-index: -1;
   top: 0;
   left: 0;
-  width: 1920px;
-  height: 1426px;
+  width: 100vw;
+  height: 1500px;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(./photos/pawel-czerwinski-HuhzIzujHmY-unsplash.jpg);
-  filter: blur(30px);
+  filter: blur(5px);
 }
 
 .header {
@@ -79,7 +80,7 @@ body {
 }
 .header__ru p {
   color: #ecf1f0;
-  font-family: "Inter", sans-serif;
+  font-family: "Interreg", sans-serif;
 }
 .header__icons {
   display: flex;
