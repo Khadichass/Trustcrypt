@@ -17,7 +17,6 @@
 body {
   max-width: 1300px;
   margin: 0 auto;
-  // background-color: #11011e;
 }
 
 .background {
@@ -112,6 +111,9 @@ body {
   }
 }
 
+.openbtn {
+  display: none;
+}
 .sect {
   display: grid;
   grid-template-columns: auto auto;
@@ -197,6 +199,8 @@ body {
     position: relative;
     img {
       margin: 16px;
+      height: 228px;
+      width: 380px;
     }
 
     h3 {
@@ -355,5 +359,386 @@ body {
       family: "Interreg", sans-serif;
     }
     line-height: 20.57px;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .background {
+    width: 100vw;
+    height: 1700px;
+    z-index: -1;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+      url(./photos/pawel-czerwinski-HuhzIzujHmY-unsplash.jpg);
+    filter: blur(5px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+  }
+  .header {
+    &__logoside {
+      margin: {
+        left: 40px;
+      }
+    }
+
+    &__links {
+      margin: {
+        left: 250px;
+      }
+    }
+  }
+  .openbtn {
+    display: none;
+  }
+
+  .sect {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .section1 {
+    &__firsth1 {
+      margin-left: 40px;
+    }
+
+    &__secondh1 {
+      margin: {
+        top: 32px;
+        left: 40px;
+      }
+    }
+
+    &__thirdpart {
+      margin: {
+        top: 32px;
+        left: 40px;
+      }
+    }
+  }
+
+  .section2 {
+    gap: 10px;
+    width: 80%;
+    margin: {
+      top: 32px;
+      bottom: 64px;
+      left: 20px;
+    }
+
+    &__card {
+      position: relative;
+      img {
+        height: 200px;
+        width: 352px;
+      }
+
+      h3 {
+        width: 330px;
+        margin: 13px;
+        margin-right: 0px;
+      }
+
+      p {
+        width: 330px;
+        margin: 13px;
+      }
+    }
+  }
+  .icon {
+    position: absolute;
+    top: 28px;
+    left: 28px;
+
+    img {
+      width: 20px;
+      height: 20px;
+    }
+  }
+
+  .viewicon {
+    position: absolute;
+    top: 176px;
+    left: 28px;
+
+    width: 70px;
+    height: 32px;
+    img {
+      width: 18px;
+      height: 18px;
+    }
+  }
+
+  .data {
+    position: absolute;
+    top: 176px;
+    left: 106px;
+    width: 116px;
+    height: 32px;
+    img {
+      width: 18px;
+      height: 18px;
+    }
+  }
+
+  .aside {
+    &__container {
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      gap: 5px;
+      align-items: center;
+      margin-top: 64px;
+      margin: 0 auto;
+      width: 250px;
+      height: 60px;
+    }
+  }
+  .footer {
+    margin: {
+      bottom: 64px;
+      top: 64px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .background {
+    width: 100vw;
+    height: 2250px;
+  }
+  .header {
+    &__logoside {
+      margin: {
+        left: 40px;
+      }
+    }
+
+    &__links {
+      margin: {
+        left: 50px;
+      }
+    }
+  }
+  .openbtn {
+    display: none;
+  }
+
+  .section2 {
+    grid-template-columns: auto auto;
+    gap: 60px;
+    width: 80%;
+    margin: 0 auto;
+    margin: {
+      top: 64px;
+      bottom: 64px;
+    }
+    &__card {
+      position: relative;
+      img {
+        height: 200px;
+        width: 352px;
+      }
+
+      h3 {
+        width: 330px;
+        margin: 13px;
+        margin-right: 0px;
+      }
+
+      p {
+        width: 330px;
+        margin: 13px;
+      }
+    }
+  }
+  .icon {
+    position: absolute;
+    top: 28px;
+    left: 28px;
+
+    img {
+      width: 20px;
+      height: 20px;
+    }
+  }
+
+  .viewicon {
+    position: absolute;
+    top: 176px;
+    left: 28px;
+
+    width: 70px;
+    height: 32px;
+    img {
+      width: 18px;
+      height: 18px;
+    }
+  }
+
+  .data {
+    position: absolute;
+    top: 176px;
+    left: 106px;
+    width: 116px;
+    height: 32px;
+    img {
+      width: 18px;
+      height: 18px;
+    }
+  }
+}
+@media only screen and (max-width: 992px) {
+  .background {
+    width: 100vw;
+    height: 4650px;
+  }
+  .header {
+    &__logoside {
+      margin: {
+        left: 40px;
+      }
+    }
+
+    &__links {
+      margin: {
+        left: 40px;
+      }
+    }
+
+    &__icons {
+      display: none;
+    }
+  }
+  .openbtn {
+    display: none;
+  }
+
+  .section1 {
+    width: 80%;
+    margin: 0 auto;
+
+    &__firsth1 {
+      margin-top: 64px;
+      p {
+        color: #ecf1f0;
+
+        font: {
+          weight: 700;
+          size: 34px;
+          family: "Inter", sans-serif;
+        }
+        line-height: 41.15px;
+        width: 90%;
+      }
+    }
+
+    &__secondh1 {
+      margin-top: 32px;
+      p {
+        color: #ecf1f0;
+        font: {
+          weight: 400;
+          size: 17px;
+          family: "Interreg", sans-serif;
+        }
+        line-height: 20.57px;
+        width: 70%;
+      }
+    }
+
+    &__thirdpart {
+      // grid-template-columns: auto auto auto auto;
+      flex-wrap: wrap;
+      gap: 16px;
+      margin-top: 32px;
+    }
+  }
+  .section2 {
+    grid-template-columns: auto;
+    gap: 60px;
+    width: 80%;
+    margin: 0 auto;
+    margin: {
+      top: 32px;
+      bottom: 64px;
+    }
+    &__card {
+      position: relative;
+      img {
+        height: 374px;
+        width: 590px;
+      }
+
+      h3 {
+        width: 580px;
+        margin: 25px;
+        margin-right: 0px;
+      }
+
+      p {
+        width: 580px;
+        margin: 25px;
+      }
+    }
+  }
+  .icon {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    max-width: 190px;
+    height: 50px;
+
+    img {
+      width: 30px;
+      height: 30px;
+    }
+    p {
+      font: {
+        weight: 700;
+        size: 16px;
+      }
+      line-height: 16.94px;
+    }
+  }
+
+  .viewicon {
+    position: absolute;
+    top: 300px;
+    left: 40px;
+    width: 100px;
+    height: 50px;
+    img {
+      width: 24px;
+      height: 24px;
+    }
+
+    p {
+      font: {
+        weight: 700;
+        size: 16px;
+      }
+      line-height: 18px;
+    }
+  }
+
+  .data {
+    position: absolute;
+    top: 300px;
+    left: 170px;
+    width: 170px;
+    height: 50px;
+    img {
+      width: 24px;
+      height: 24px;
+    }
+    p {
+      font: {
+        weight: 700;
+        size: 16px;
+      }
+      line-height: 18px;
+    }
   }
 }
