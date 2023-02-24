@@ -95,7 +95,7 @@ body {
   margin-left: 64px;
 }
 
-.openbtn {
+.head {
   display: none;
 }
 
@@ -337,7 +337,7 @@ body {
   .header__links {
     margin-left: 250px;
   }
-  .openbtn {
+  .head {
     display: none;
   }
   .sect {
@@ -435,7 +435,7 @@ body {
   .header__links {
     margin-left: 50px;
   }
-  .openbtn {
+  .head {
     display: none;
   }
   .section2 {
@@ -508,7 +508,7 @@ body {
   .header__icons {
     display: none;
   }
-  .openbtn {
+  .head {
     display: none;
   }
   .section1 {
@@ -613,6 +613,112 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 18px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .background {
+    width: 100vw;
+    height: 4400px;
+  }
+  .header {
+    display: none;
+  }
+  .head {
+    display: flex;
+  }
+  .head__logoside {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+  }
+  .head__logoside img {
+    width: 39px;
+    height: 44px;
+  }
+  .head__logoside h1 {
+    font-family: "Inter", sans-serif;
+    color: #ecf1f0;
+    font-size: 24px;
+  }
+  .head__ru {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    margin-top: 34px;
+    margin-bottom: 22px;
+    margin-left: 200px;
+  }
+  .head__ru img {
+    height: 20px;
+    width: 20px;
+  }
+  .head__ru p {
+    color: #ecf1f0;
+    font-family: "Interreg", sans-serif;
+  }
+  .head__openbtn {
+    margin-top: 34px;
+    margin-bottom: 22px;
+    margin-left: 30px;
+  }
+  .section2 {
+    grid-template-columns: auto;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 32px;
+    margin-bottom: 64px;
+  }
+  .section2__card {
+    position: relative;
+  }
+  .section2__card img {
+    height: 270px;
+    width: 422px;
+  }
+  .section2__card h3 {
+    width: 410px;
+    margin: 18px;
+    margin-right: 0px;
+  }
+  .section2__card p {
+    width: 410px;
+    margin: 18px;
+  }
+  .icon {
+    position: absolute;
+    top: 32px;
+    left: 32px;
+    max-width: 190px;
+    height: 34px;
+  }
+  .icon img {
+    width: 20px;
+    height: 20px;
+  }
+  .viewicon {
+    position: absolute;
+    top: 236px;
+    left: 32px;
+    width: 100px;
+    height: 34px;
+  }
+  .viewicon img {
+    width: 20px;
+    height: 20px;
+  }
+  .data {
+    position: absolute;
+    top: 236px;
+    left: 146px;
+    width: 146px;
+    height: 34px;
+  }
+  .data img {
+    width: 20px;
+    height: 20px;
   }
 }
 
