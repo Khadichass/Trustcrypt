@@ -99,6 +99,10 @@ body {
   display: none;
 }
 
+.button {
+  display: none;
+}
+
 .sect {
   display: grid;
   grid-template-columns: auto auto;
@@ -340,6 +344,9 @@ body {
   .head {
     display: none;
   }
+  .button {
+    display: none;
+  }
   .sect {
     display: grid;
     grid-template-columns: auto;
@@ -438,6 +445,9 @@ body {
   .head {
     display: none;
   }
+  .button {
+    display: none;
+  }
   .section2 {
     grid-template-columns: auto auto;
     gap: 60px;
@@ -509,6 +519,9 @@ body {
     display: none;
   }
   .head {
+    display: none;
+  }
+  .button {
     display: none;
   }
   .section1 {
@@ -618,7 +631,7 @@ body {
 @media only screen and (max-width: 768px) {
   .background {
     width: 100vw;
-    height: 4400px;
+    height: 4200px;
   }
   .header {
     display: none;
@@ -649,7 +662,7 @@ body {
     align-items: center;
     margin-top: 34px;
     margin-bottom: 22px;
-    margin-left: 200px;
+    margin-left: 190px;
   }
   .head__ru img {
     height: 20px;
@@ -663,6 +676,9 @@ body {
     margin-top: 34px;
     margin-bottom: 22px;
     margin-left: 30px;
+  }
+  .button {
+    display: none;
   }
   .section2 {
     grid-template-columns: auto;
@@ -719,6 +735,178 @@ body {
   .data img {
     width: 20px;
     height: 20px;
+  }
+}
+@media only screen and (max-width: 586px) {
+  .background {
+    width: 100vw;
+    height: 3600px;
+  }
+  .head {
+    display: flex;
+    align-items: center;
+  }
+  .head__logoside {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 14px;
+  }
+  .head__logoside img {
+    width: 25px;
+    height: 28px;
+  }
+  .head__logoside h1 {
+    font-size: 16px;
+  }
+  .head__ru {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 77px;
+  }
+  .head__ru p {
+    font-size: 17px;
+  }
+  .head__openbtn {
+    margin: 16px;
+  }
+  .head__openbtn img {
+    width: 28px;
+    height: 28px;
+  }
+  .section1 {
+    width: 80%;
+  }
+  .section1__firsth1 {
+    margin: 0 auto;
+    margin-top: 28px;
+  }
+  .section1__firsth1 p {
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 25.41px;
+    width: 100%;
+  }
+  .section1__secondh1 {
+    margin: 0 auto;
+    margin-top: 16px;
+  }
+  .section1__secondh1 p {
+    width: 100%;
+  }
+  .section1__thirdpart {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    margin: 0 auto;
+    margin-top: 16px;
+  }
+  .section1__thirdpart--card p {
+    font-size: 12px;
+    line-height: 14.52px;
+  }
+  .section2 {
+    grid-template-columns: auto;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+  .section2__card {
+    position: relative;
+  }
+  .section2__card img {
+    height: 175px;
+    width: 305px;
+    margin: 2px;
+  }
+  .section2__card h3 {
+    width: 240px;
+    margin: 16px;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 25.41px;
+    margin-right: 26px;
+  }
+  .section2__card p {
+    width: 240px;
+    margin: 16px;
+    font-size: 17px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20.57px;
+  }
+  .icon {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    max-width: 111px;
+    height: 32px;
+  }
+  .icon img {
+    width: 18px;
+    height: 18px;
+  }
+  .icon p {
+    font-size: 12px;
+    line-height: 14.52px;
+  }
+  .viewicon {
+    position: absolute;
+    top: 127px;
+    left: 16px;
+    width: 70px;
+    height: 32px;
+  }
+  .viewicon img {
+    width: 18px;
+    height: 18px;
+  }
+  .viewicon p {
+    font-size: 12px;
+  }
+  .data {
+    position: absolute;
+    top: 127px;
+    left: 94px;
+    width: 116px;
+    height: 32px;
+  }
+  .data img {
+    width: 18px;
+    height: 18px;
+  }
+  .data p {
+    font-size: 12px;
+  }
+  .aside__container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 1px;
+    align-items: center;
+    width: 230px;
+    height: 45px;
+  }
+  .aside--numb {
+    width: 35px;
+    height: 35px;
+    margin: 5px;
+  }
+  .aside--numb p {
+    font-size: 12px;
+    line-height: 20.57px;
+  }
+  .aside--numb:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+  }
+  .footer {
+    margin-bottom: 64px;
+  }
+  .footer p {
+    font-size: 12px;
+    line-height: 14.52px;
   }
 }
 
