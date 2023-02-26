@@ -1,14 +1,16 @@
 "use script";
 
-let openBtn = document.querySelector(".head__openbtn");
-let closeBtn = document.querySelector(".close__btn");
+const openBtn = document.getElementById("head__openbtn");
+const closeBtn = document.getElementById("close__btn");
 
 let openButton = function () {
+  console.log("log");
   openBtn.style.display = "block";
 };
+
 openBtn.addEventListener("click", openButton);
 
 let closeButton = function () {
-  openBtn.style.display = "none";
+  closeBtn.style.display = "none";
 };
 closeBtn.addEventListener("click", closeButton);
