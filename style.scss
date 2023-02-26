@@ -277,6 +277,7 @@ body {
     height: 18px;
   }
   p {
+    margin-left: 0px;
     color: #ecf1f0;
     font: {
       weight: 600;
@@ -302,8 +303,10 @@ body {
   img {
     width: 18px;
     height: 18px;
+    margin-right: 0;
   }
   p {
+    margin-left: 0;
     color: #ecf1f0;
     font: {
       weight: 600;
@@ -980,8 +983,8 @@ body {
     &__card {
       position: relative;
       img {
-        height: 175px;
-        width: 305px;
+        max-height: 175px;
+        max-width: 305px;
         margin: 2px;
       }
 
