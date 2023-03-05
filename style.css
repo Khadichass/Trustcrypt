@@ -21,8 +21,7 @@ body {
   width: 100vw;
   height: 1500px;
   z-index: -1;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url(./photos/pawel-czerwinski-HuhzIzujHmY-unsplash.jpg);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(./photos/pawel-czerwinski-HuhzIzujHmY-unsplash.jpg);
   filter: blur(5px);
   position: absolute;
   top: 0;
@@ -243,7 +242,6 @@ body {
 .viewicon img {
   width: 18px;
   height: 18px;
-  margin-right: 5px;
 }
 .viewicon p {
   margin-left: 0px;
@@ -270,7 +268,7 @@ body {
 .data img {
   width: 18px;
   height: 18px;
-  margin-right: 8px;
+  margin-right: 0;
 }
 .data p {
   margin-left: 0;
@@ -330,8 +328,7 @@ body {
     width: 100vw;
     height: 1700px;
     z-index: -1;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-      url(./photos/pawel-czerwinski-HuhzIzujHmY-unsplash.jpg);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(./photos/pawel-czerwinski-HuhzIzujHmY-unsplash.jpg);
     filter: blur(5px);
     position: absolute;
     top: 0;
@@ -644,6 +641,8 @@ body {
   }
   .head {
     display: flex;
+    align-items: center;
+    margin: 0 auto;
   }
   .head__logoside {
     display: flex;
@@ -666,9 +665,10 @@ body {
     display: flex;
     gap: 4px;
     align-items: center;
-    margin-top: 34px;
+    margin-top: 20px;
     margin-bottom: 22px;
-    margin-left: 190px;
+    margin-right: 10px;
+    margin-left: 250px;
   }
   .head__ru img {
     height: 20px;
@@ -681,7 +681,7 @@ body {
   .head__openbtn {
     margin-top: 34px;
     margin-bottom: 22px;
-    margin-left: 30px;
+    margin-right: 30px;
   }
   .button {
     display: none;

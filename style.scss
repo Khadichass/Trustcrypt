@@ -769,6 +769,8 @@ body {
 
   .head {
     display: flex;
+    align-items: center;
+    margin: 0 auto;
 
     &__logoside {
       display: flex;
@@ -796,9 +798,10 @@ body {
       align-items: center;
 
       margin: {
-        top: 34px;
+        top: 20px;
         bottom: 22px;
-        left: 190px;
+        right: 10px;
+        left: 250px;
       }
       img {
         height: 20px;
@@ -814,7 +817,7 @@ body {
       margin: {
         top: 34px;
         bottom: 22px;
-        left: 30px;
+        right: 30px;
       }
     }
   }
