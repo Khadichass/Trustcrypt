@@ -509,8 +509,8 @@ body {
 }
 @media only screen and (max-width: 992px) {
   .background {
-    width: 98.9vw;
-    height: 220vh;
+    width: 100vw;
+    height: 1680vh;
   }
   .header__logoside {
     margin-left: 40px;
