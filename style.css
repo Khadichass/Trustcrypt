@@ -745,8 +745,8 @@ body {
 }
 @media only screen and (max-width: 586px) {
   .background {
-    width: 100vw;
-    height: 3600px;
+    width: 98.9vw;
+    height: 220vh;
   }
   .head {
     display: flex;
