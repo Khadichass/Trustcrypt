@@ -325,8 +325,8 @@ body {
 
 @media only screen and (max-width: 1400px) {
   .background {
-    width: 100vw;
-    height: 1700px;
+    width: 98.9vw;
+    height: 220vh;
     z-index: -1;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(./photos/pawel-czerwinski-HuhzIzujHmY-unsplash.jpg);
     filter: blur(5px);
