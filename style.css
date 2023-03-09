@@ -546,10 +546,10 @@ body {
 @media only screen and (max-width: 992px) {
   .background {
     width: 100vw;
-    height: 1680vh;
+    height: 870vh;
   }
   .header__logoside {
-    margin-left: 40px;
+    margin-left: 45px;
   }
   .header__links {
     margin-left: 40px;
@@ -608,7 +608,7 @@ body {
   }
   .section2__card img {
     height: 374px;
-    width: 590px;
+    width: 95%;
   }
   .section2__card h3 {
     width: 580px;
@@ -629,11 +629,13 @@ body {
   .icon img {
     width: 30px;
     height: 30px;
+    margin-right: 0;
   }
   .icon p {
     font-weight: 700;
     font-size: 16px;
     line-height: 16.94px;
+    margin-left: 0;
   }
   .viewicon {
     position: absolute;
@@ -645,11 +647,13 @@ body {
   .viewicon img {
     width: 24px;
     height: 24px;
+    margin-right: 0;
   }
   .viewicon p {
     font-weight: 700;
     font-size: 16px;
     line-height: 18px;
+    margin-left: 0;
   }
   .data {
     position: absolute;
@@ -661,11 +665,13 @@ body {
   .data img {
     width: 24px;
     height: 24px;
+    margin-right: 0;
   }
   .data p {
     font-weight: 700;
     font-size: 16px;
     line-height: 18px;
+    margin-left: 5px;
   }
 }
 @media only screen and (max-width: 768px) {

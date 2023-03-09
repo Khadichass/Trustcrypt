@@ -660,12 +660,12 @@ body {
 @media only screen and (max-width: 992px) {
   .background {
     width: 100vw;
-    height: 1680vh;
+    height: 870vh;
   }
   .header {
     &__logoside {
       margin: {
-        left: 40px;
+        left: 45px;
       }
     }
 
@@ -739,7 +739,8 @@ body {
       position: relative;
       img {
         height: 374px;
-        width: 590px;
+        // width: 590px;
+        width: 95%;
       }
 
       h3 {
@@ -764,6 +765,7 @@ body {
     img {
       width: 30px;
       height: 30px;
+      margin-right: 0;
     }
     p {
       font: {
@@ -771,6 +773,7 @@ body {
         size: 16px;
       }
       line-height: 16.94px;
+      margin-left: 0;
     }
   }
 
@@ -783,6 +786,7 @@ body {
     img {
       width: 24px;
       height: 24px;
+      margin-right: 0;
     }
 
     p {
@@ -791,6 +795,7 @@ body {
         size: 16px;
       }
       line-height: 18px;
+      margin-left: 0;
     }
   }
 
@@ -803,6 +808,7 @@ body {
     img {
       width: 24px;
       height: 24px;
+      margin-right: 0;
     }
     p {
       font: {
@@ -810,6 +816,7 @@ body {
         size: 16px;
       }
       line-height: 18px;
+      margin-left: 5px;
     }
   }
 }
