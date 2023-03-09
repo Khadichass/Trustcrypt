@@ -156,6 +156,7 @@ body {
 
   &__thirdpart {
     display: flex;
+    flex-wrap: wrap;
     gap: 16px;
     margin-top: 32px;
     &--card {
@@ -664,7 +665,7 @@ body {
     }
 
     &__thirdpart {
-      // grid-template-columns: auto auto auto auto;
+      display: flex;
       flex-wrap: wrap;
       gap: 16px;
       margin-top: 32px;
@@ -898,6 +899,7 @@ body {
   .head {
     display: flex;
     align-items: center;
+    width: 80%;
     &__logoside {
       margin: {
         top: 16px;
@@ -959,8 +961,8 @@ body {
     }
 
     &__thirdpart {
-      display: grid;
-      grid-template-columns: auto auto auto;
+      display: flex;
+      flex-wrap: wrap;
       gap: 10px;
       margin: 0 auto;
       margin-top: 16px;
