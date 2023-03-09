@@ -803,12 +803,13 @@ body {
 @media only screen and (max-width: 586px) {
   .background {
     width: 100vw;
-    height: 1300vh;
+    height: 670vh;
   }
   .head {
     display: flex;
     align-items: center;
-    width: 80%;
+    width: 85%;
+    margin: 0 auto;
   }
   .head__logoside {
     margin-top: 16px;
@@ -838,7 +839,7 @@ body {
     height: 28px;
   }
   .section1 {
-    width: 80%;
+    width: 85%;
   }
   .section1__firsth1 {
     margin: 0 auto;
@@ -870,7 +871,7 @@ body {
   }
   .section2 {
     grid-template-columns: auto;
-    width: 90%;
+    width: 70%;
     margin: 0 auto;
     margin-top: 32px;
     margin-bottom: 32px;
@@ -880,7 +881,7 @@ body {
   }
   .section2__card img {
     max-height: 175px;
-    max-width: 305px;
+    width: 100%;
     margin: 2px;
   }
   .section2__card h3 {
@@ -903,16 +904,19 @@ body {
     position: absolute;
     top: 16px;
     left: 16px;
-    max-width: 111px;
     height: 32px;
+    width: 70%;
   }
   .icon img {
     width: 18px;
     height: 18px;
+    margin-right: 0;
+    margin-left: 15px;
   }
   .icon p {
     font-size: 12px;
     line-height: 14.52px;
+    margin-left: 0;
   }
   .viewicon {
     position: absolute;
@@ -924,9 +928,12 @@ body {
   .viewicon img {
     width: 18px;
     height: 18px;
+    margin-right: 0;
+    margin-left: 15px;
   }
   .viewicon p {
     font-size: 12px;
+    margin-left: 0;
   }
   .data {
     position: absolute;
@@ -938,9 +945,12 @@ body {
   .data img {
     width: 18px;
     height: 18px;
+    margin-right: 0;
+    margin-left: 15px;
   }
   .data p {
     font-size: 12px;
+    margin-left: 0;
   }
   .aside__container {
     display: grid;

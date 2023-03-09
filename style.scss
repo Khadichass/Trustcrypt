@@ -970,12 +970,13 @@ body {
 @media only screen and (max-width: 586px) {
   .background {
     width: 100vw;
-    height: 1300vh;
+    height: 670vh;
   }
   .head {
     display: flex;
     align-items: center;
-    width: 80%;
+    width: 85%;
+    margin: 0 auto;
     &__logoside {
       margin: {
         top: 16px;
@@ -1012,7 +1013,7 @@ body {
     }
   }
   .section1 {
-    width: 80%;
+    width: 85%;
 
     &__firsth1 {
       margin: 0 auto;
@@ -1055,7 +1056,7 @@ body {
 
   .section2 {
     grid-template-columns: auto;
-    width: 90%;
+    width: 70%;
     margin: 0 auto;
     margin: {
       top: 32px;
@@ -1065,7 +1066,7 @@ body {
       position: relative;
       img {
         max-height: 175px;
-        max-width: 305px;
+        width: 100%;
         margin: 2px;
       }
 
@@ -1098,12 +1099,13 @@ body {
     position: absolute;
     top: 16px;
     left: 16px;
-    max-width: 111px;
     height: 32px;
-
+    width: 70%;
     img {
       width: 18px;
       height: 18px;
+      margin-right: 0;
+      margin-left: 15px;
     }
 
     p {
@@ -1111,6 +1113,7 @@ body {
         size: 12px;
       }
       line-height: 14.52px;
+      margin-left: 0;
     }
   }
 
@@ -1124,9 +1127,12 @@ body {
     img {
       width: 18px;
       height: 18px;
+      margin-right: 0;
+      margin-left: 15px;
     }
     p {
       font-size: 12px;
+      margin-left: 0;
     }
   }
 
@@ -1139,9 +1145,12 @@ body {
     img {
       width: 18px;
       height: 18px;
+      margin-right: 0;
+      margin-left: 15px;
     }
     p {
       font-size: 12px;
+      margin-left: 0;
     }
   }
   .aside {
