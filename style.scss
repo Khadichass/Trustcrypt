@@ -1099,8 +1099,11 @@ body {
     position: absolute;
     top: 16px;
     left: 16px;
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    border-radius: 60px;
     height: 32px;
-    width: 70%;
     img {
       width: 18px;
       height: 18px;
@@ -1164,8 +1167,8 @@ body {
     }
 
     &--numb {
-      width: 35px;
-      height: 35px;
+      width: 40px;
+      height: 40px;
       margin: 5px;
       p {
         font: {
