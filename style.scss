@@ -823,7 +823,7 @@ body {
 @media only screen and (max-width: 768px) {
   .background {
     width: 100vw;
-    height: 1460vh;
+    height: 760vh;
   }
 
   .header {
@@ -834,7 +834,6 @@ body {
     display: flex;
     align-items: center;
     margin: 0 auto;
-
     &__logoside {
       display: flex;
       gap: 16px;
@@ -900,7 +899,8 @@ body {
       position: relative;
       img {
         height: 270px;
-        width: 422px;
+        // width: 422px;
+        width: 95%;
       }
 
       h3 {
@@ -919,12 +919,16 @@ body {
     position: absolute;
     top: 32px;
     left: 32px;
-    max-width: 190px;
+    max-width: 28%;
     height: 34px;
 
     img {
       width: 20px;
       height: 20px;
+      margin-right: 0;
+    }
+    p {
+      margin-left: 0;
     }
   }
 
@@ -938,6 +942,10 @@ body {
     img {
       width: 20px;
       height: 20px;
+      margin-right: 0;
+    }
+    p {
+      margin-left: 0;
     }
   }
 
@@ -950,6 +958,10 @@ body {
     img {
       width: 20px;
       height: 20px;
+      margin-right: 0;
+    }
+    p {
+      margin-left: 0;
     }
   }
 }

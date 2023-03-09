@@ -677,7 +677,7 @@ body {
 @media only screen and (max-width: 768px) {
   .background {
     width: 100vw;
-    height: 1460vh;
+    height: 760vh;
   }
   .header {
     display: none;
@@ -741,7 +741,7 @@ body {
   }
   .section2__card img {
     height: 270px;
-    width: 422px;
+    width: 95%;
   }
   .section2__card h3 {
     width: 410px;
@@ -756,12 +756,16 @@ body {
     position: absolute;
     top: 32px;
     left: 32px;
-    max-width: 190px;
+    max-width: 28%;
     height: 34px;
   }
   .icon img {
     width: 20px;
     height: 20px;
+    margin-right: 0;
+  }
+  .icon p {
+    margin-left: 0;
   }
   .viewicon {
     position: absolute;
@@ -773,6 +777,10 @@ body {
   .viewicon img {
     width: 20px;
     height: 20px;
+    margin-right: 0;
+  }
+  .viewicon p {
+    margin-left: 0;
   }
   .data {
     position: absolute;
@@ -784,6 +792,10 @@ body {
   .data img {
     width: 20px;
     height: 20px;
+    margin-right: 0;
+  }
+  .data p {
+    margin-left: 0;
   }
 }
 @media only screen and (max-width: 586px) {
