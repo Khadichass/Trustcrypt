@@ -18,11 +18,11 @@ body {
 }
 
 .background {
-  width: 98.9vw;
-  height: 220vh;
+  width: 100vw;
+  height: 290vh;
   z-index: -1;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(./photos/pawel-czerwinski-HuhzIzujHmY-unsplash.jpg);
-  filter: blur(5px);
+  filter: blur(4px);
   position: absolute;
   top: 0;
   left: 0;
@@ -69,6 +69,7 @@ body {
 .header__links a:hover {
   color: #0fae96;
   text-decoration: underline;
+  padding-bottom: 10px;
 }
 .header__ru {
   display: flex;
@@ -136,6 +137,7 @@ body {
 }
 .section1__thirdpart {
   display: flex;
+  flex-wrap: wrap;
   gap: 16px;
   margin-top: 32px;
 }
@@ -209,13 +211,14 @@ body {
   align-items: center;
   background-color: #0fae96;
   border-radius: 60px;
-  max-width: 190px;
+  max-width: 145px;
   height: 32px;
 }
 .icon img {
   width: 20px;
   height: 20px;
   padding: 6px, 12px;
+  margin-right: 0px;
 }
 .icon p {
   color: #ecf1f0;
@@ -224,6 +227,7 @@ body {
   font-family: "Interreg", sans-serif;
   line-height: 16.94px;
   padding: 8px, 12px;
+  margin-left: 0px;
 }
 
 .viewicon {
@@ -242,6 +246,7 @@ body {
 .viewicon img {
   width: 18px;
   height: 18px;
+  margin-right: 0;
 }
 .viewicon p {
   margin-left: 0px;
@@ -250,6 +255,7 @@ body {
   font-size: 12px;
   font-family: "Interreg", sans-serif;
   line-height: 14.52px;
+  margin-left: 0;
 }
 
 .data {
@@ -277,6 +283,7 @@ body {
   font-size: 12px;
   font-family: "Interreg", sans-serif;
   line-height: 14.52px;
+  margin-left: 5px;
 }
 
 .aside__container {
@@ -554,6 +561,7 @@ body {
     width: 70%;
   }
   .section1__thirdpart {
+    display: flex;
     flex-wrap: wrap;
     gap: 16px;
     margin-top: 32px;
@@ -751,6 +759,7 @@ body {
   .head {
     display: flex;
     align-items: center;
+    width: 80%;
   }
   .head__logoside {
     margin-top: 16px;
@@ -800,8 +809,8 @@ body {
     width: 100%;
   }
   .section1__thirdpart {
-    display: grid;
-    grid-template-columns: auto auto auto;
+    display: flex;
+    flex-wrap: wrap;
     gap: 10px;
     margin: 0 auto;
     margin-top: 16px;
