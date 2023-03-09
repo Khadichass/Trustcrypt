@@ -457,7 +457,7 @@ body {
 @media only screen and (max-width: 1200px) {
   .background {
     width: 100vw;
-    height: 420vh;
+    height: 435vh;
   }
   .header__logoside {
     margin-left: 40px;
@@ -470,6 +470,10 @@ body {
   }
   .button {
     display: none;
+  }
+  .section1 {
+    width: 80%;
+    margin: 0 auto;
   }
   .section2 {
     grid-template-columns: auto auto;
@@ -484,7 +488,7 @@ body {
   }
   .section2__card img {
     height: 200px;
-    width: 352px;
+    width: 92%;
   }
   .section2__card h3 {
     width: 330px;
@@ -503,6 +507,10 @@ body {
   .icon img {
     width: 20px;
     height: 20px;
+    margin-right: 0;
+  }
+  .icon p {
+    margin-left: 0;
   }
   .viewicon {
     position: absolute;
@@ -514,6 +522,10 @@ body {
   .viewicon img {
     width: 18px;
     height: 18px;
+    margin-right: 0;
+  }
+  .viewicon p {
+    margin-left: 0;
   }
   .data {
     position: absolute;
@@ -525,6 +537,10 @@ body {
   .data img {
     width: 18px;
     height: 18px;
+    margin-right: 0;
+  }
+  .data p {
+    margin-left: 0;
   }
 }
 @media only screen and (max-width: 992px) {

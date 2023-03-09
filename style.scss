@@ -534,9 +534,10 @@ body {
 @media only screen and (max-width: 1200px) {
   .background {
     width: 100vw;
-    height: 420vh;
+    height: 435vh;
   }
   .header {
+    // margin: 0 auto;
     &__logoside {
       margin: {
         left: 40px;
@@ -557,6 +558,12 @@ body {
   .button {
     display: none;
   }
+
+  .section1 {
+    width: 80%;
+    margin: 0 auto;
+  }
+
   .section2 {
     grid-template-columns: auto auto;
     gap: 60px;
@@ -570,7 +577,7 @@ body {
       position: relative;
       img {
         height: 200px;
-        width: 352px;
+        width: 92%;
       }
 
       h3 {
@@ -593,6 +600,10 @@ body {
     img {
       width: 20px;
       height: 20px;
+      margin-right: 0;
+    }
+    p {
+      margin-left: 0;
     }
   }
 
@@ -606,6 +617,10 @@ body {
     img {
       width: 18px;
       height: 18px;
+      margin-right: 0;
+    }
+    p {
+      margin-left: 0;
     }
   }
 
@@ -618,9 +633,30 @@ body {
     img {
       width: 18px;
       height: 18px;
+      margin-right: 0;
+    }
+    p {
+      margin-left: 0;
     }
   }
 }
+
+// @media only screen and (max-width: 1022px) {
+//   .header {
+//     &__logoside {
+//       margin: {
+//         left: 40px;
+//       }
+//     }
+
+//     &__links {
+//       margin: {
+//         left: 50px;
+//       }
+//     }
+//   }
+// }
+
 @media only screen and (max-width: 992px) {
   .background {
     width: 100vw;
