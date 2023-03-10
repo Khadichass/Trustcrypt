@@ -730,7 +730,6 @@ body {
   }
   .button {
     display: none;
-    position: absolute;
     top: 0;
     left: 0;
     width: 100vw;
@@ -739,6 +738,8 @@ body {
     background-color: black;
     color: white;
     z-index: 2;
+    position: fixed;
+    height: 100%;
   }
   .button__links {
     display: grid;
@@ -754,7 +755,8 @@ body {
   .button__icons {
     display: flex;
     gap: 20px;
-    margin: 70px 230px;
+    justify-content: center;
+    padding-top: 60px;
   }
   .button__icons img {
     width: 35px;
@@ -876,7 +878,6 @@ body {
   }
   .button {
     display: none;
-    position: absolute;
     top: 0;
     left: 0;
     width: 100vw;
@@ -885,6 +886,8 @@ body {
     background-color: black;
     color: white;
     z-index: 2;
+    position: fixed;
+    height: 100%;
   }
   .button__links {
     display: grid;
@@ -896,11 +899,6 @@ body {
     color: white;
     margin: 0 auto;
     padding-top: 20px;
-  }
-  .button__icons {
-    display: flex;
-    gap: 20px;
-    margin: 70px 210px;
   }
   .button__icons img {
     width: 22px;
