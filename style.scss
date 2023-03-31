@@ -17,22 +17,8 @@
 body {
   max-width: 1300px;
   margin: 0 auto;
-}
-
-.background {
-  width: 100vw;
-  height: 220vh;
-  z-index: -1;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url(./photos/pawel-czerwinski-HuhzIzujHmY-unsplash.jpg);
-  filter: blur(4px);
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: absolute;
 }
 
 .header {
